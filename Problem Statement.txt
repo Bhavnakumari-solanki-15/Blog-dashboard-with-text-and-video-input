@@ -1,0 +1,45 @@
+Problem Statement: Blog Dashboard with Text and Video Input
+Objective:
+Develop a blog dashboard that allows users to input text and video content, and enables seamless transcription, translation, and blog publishing in 10 regional Indian languages (Hindi, Marathi, Gujarati, Tamil, Kannada, Telugu, Bengali, Malayalam, Punjabi, Odia).
+
+Key Features:
+Input Options:
+Text Input: Users can input text directly as well as upload a file (e.g., .txt, .docx).
+Video Input: Users can upload videos (e.g., .mp4, .mov) for transcription. The transcription will convert speech to text in English and follow the translation workflow.
+Transcription (For Video):
+Automatically transcribes video content to English text using AI-powered Speech-to-Text models (e.g., Google Speech-to-Text, AWS Transcribe).
+Displays transcription results for review and editing before proceeding to translation.
+Translation (For Text or Transcribed Content):
+Translate the English content into 10 regional languages using advanced NLP models like AWS Translate, Google Cloud Translation, or OpenAI.
+Ensure high accuracy with metrics like BLEU or ROUGE scores.
+Blog Publishing:
+Outputs translations into a blog format for each language.
+SEO-optimized content with unique URLs for each language version.
+Blog drafts can be reviewed and edited before publishing.
+Dynamic Routing & SEO Indexing:
+Implement dynamic routing to create language-specific URLs (e.g., /blog-title-hindi, /blog-title-tamil).
+SEO indexing for all translated blogs, including metadata, structured data, and language tags for search engine optimization.
+Server-Side Rendering (SSR):
+Use SSR to ensure fast page loads, better SEO performance, and accessibility across devices.
+Dashboard Features:
+User-friendly UI for:
+Uploading text as well as video.
+Reviewing and editing transcriptions and translations.
+Managing published blogs (edit, delete, or update).
+Display translation accuracy metrics for each language.
+Blog analytics (views, engagement metrics, etc.).
+Blog Portal:
+A dedicated section for publishing and browsing blogs.
+Categories, tags, and filters for easier content discovery.
+Multilingual support for readers to view blogs in their preferred language.
+Success Metrics:
+Accuracy:
+Achieve ≥ 85% translation accuracy for all languages.
+Processing Time:
+Transcription and translation completed within ≤ 10 seconds per language.
+Coverage:
+Support for all 10 regional languages.
+Engagement:
+Measure blog engagement via analytics like unique visitors, language-based readership, and average session duration.
+Usability:
+A seamless workflow with intuitive user interface and minimal errors.
